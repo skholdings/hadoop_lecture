@@ -3,23 +3,23 @@ Hadoop
 
 - 실습 데이터 (영국 교통사고 데이터)
 
-> 사고 이력 : https://github.com/longnym/lecture/raw/master/sample_data/DfTRoadSafety_Accidents.zip
+> 사고 이력 : https://github.com/skholdings/hadoop_lecture/raw/master/sample_data/DfTRoadSafety_Accidents.zip
 
-> 사상자 정보 : https://github.com/longnym/lecture/raw/master/sample_data/DfTRoadSafety_Casualties.zip
+> 사상자 정보 : https://github.com/skholdings/hadoop_lecture/raw/master/sample_data/DfTRoadSafety_Casualties.zip
 
-> 지역 코드 : https://github.com/longnym/lecture/raw/master/sample_data/DfTRoadSafety_District.zip
+> 지역 코드 : https://github.com/skholdings/hadoop_lecture/raw/master/sample_data/DfTRoadSafety_District.zip
 
-> 데이터 활용 가이드 : http://github.com/longnym/lecture/raw/master/sample_data/Road-Accident-Safety-Data-Guide.xls
+> 데이터 활용 가이드 : http://github.com/skholdings/hadoop_lecture/raw/master/sample_data/Road-Accident-Safety-Data-Guide.xls
 
 <br>
 
 - MapReduce Application 다운로드
 
-> http://github.com/longnym/lecture/raw/master/build/hadoop_ex01.jar
+> http://github.com/skholdings/hadoop_lecture/raw/master/build/hadoop_ex01.jar
 
-> http://github.com/longnym/lecture/raw/master/build/hadoop_ex02.jar
+> http://github.com/skholdings/hadoop_lecture/raw/master/build/hadoop_ex02.jar
 
-> http://github.com/longnym/lecture/raw/master/build/hadoop_ex03.jar
+> http://github.com/skholdings/hadoop_lecture/raw/master/build/hadoop_ex03.jar
 
 <br>
 
