@@ -25,11 +25,11 @@ Hadoop
 
 3. HDFS에 파일 업로드
 
-> Accidents_*.csv => /input/acc
+> (Local) Accidents_*.csv  ->  (HDFS) /input/acc
 
-> Casualties_*.csv => /input/cas
+> (Local) Casualties_*.csv  ->  (HDFS) /input/cas
 
-> District.txt => /input/dis
+> (Local) District.txt  ->  (HDFS) /input/dis
 
 <br>
 
