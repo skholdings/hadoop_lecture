@@ -1,7 +1,7 @@
 Hadoop
 ==================
 
-01. 실습 데이터(영국 교통사고 데이터) 다운로드
+1. 실습 데이터(영국 교통사고 데이터) 다운로드
 
 > 사고 이력 : https://github.com/skholdings/hadoop_lecture/raw/master/sample_data/DfTRoadSafety_Accidents.zip
 
@@ -13,7 +13,7 @@ Hadoop
 
 <br>
 
-02. 압축 해제
+2. 압축 해제
 
 > unzip DfTRoadSafety_Accidents.zip
 
@@ -23,7 +23,17 @@ Hadoop
 
 <br>
 
-- MapReduce Application 다운로드
+3. HDFS에 파일 업로드
+
+> Accidents_*.csv => /input/acc
+
+> Casualties_*.csv => /input/cas
+
+> District.txt => /input/dis
+
+<br>
+
+4. MapReduce Application 다운로드
 
 > http://github.com/skholdings/hadoop_lecture/raw/master/build/hadoop_ex01.jar
 
@@ -33,18 +43,18 @@ Hadoop
 
 <br>
 
-- Driver Class의 실행 (실습 1)
+5. Driver Class의 실행 (실습 1)
 
 >hadoop jar hadoop_ex01.jar -D inputPath=/input/acc/* -D outputPath=/output/result01 -D numReduceTasks=3 skill.coach.TestDriver
 
 <br>
 
-- Driver Class의 실행 (실습 2)
+6. Driver Class의 실행 (실습 2)
 
 >hadoop jar hadoop_ex02.jar -D inputPath=/input/acc/* -D outputPath=/output/result02 -D numReduceTasks=3 skill.coach.TestDriver
 
 <br>
 
-- Driver Class의 실행 (실습 3)
+7. Driver Class의 실행 (실습 3)
 
 >hadoop jar hadoop_ex03.jar -D inputPath1=/input/acc/* -D inputPath2=/input/cas/* -D cachePath=/input/dis/District.txt -D tempPath=/output/result03_1 -D outputPath=/output/result03_2 -D numReduceTasks=10 skill.coach.TestDriver
