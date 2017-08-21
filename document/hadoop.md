@@ -1,7 +1,7 @@
 Hadoop
 ==================
 
-- 실습 데이터 (영국 교통사고 데이터)
+- 01. 실습 데이터(영국 교통사고 데이터) 다운로드
 
 > 사고 이력 : https://github.com/skholdings/hadoop_lecture/raw/master/sample_data/DfTRoadSafety_Accidents.zip
 
@@ -10,6 +10,16 @@ Hadoop
 > 지역 코드 : https://github.com/skholdings/hadoop_lecture/raw/master/sample_data/DfTRoadSafety_District.zip
 
 > 데이터 활용 가이드 : http://github.com/skholdings/hadoop_lecture/raw/master/sample_data/Road-Accident-Safety-Data-Guide.xls
+
+<br>
+
+- 02. 압축 해제
+
+> unzip DfTRoadSafety_Accidents.zip
+
+> unzip DfTRoadSafety_Casualties.zip
+
+> unzip DfTRoadSafety_District.zip
 
 <br>
 
