@@ -9,8 +9,6 @@ Hadoop
 
 > 지역 코드 : https://github.com/skholdings/hadoop_lecture/raw/master/sample_data/DfTRoadSafety_District.zip
 
-> 데이터 활용 가이드 : http://github.com/skholdings/hadoop_lecture/raw/master/sample_data/Road-Accident-Safety-Data-Guide.xls
-
 <br>
 
 2. 압축 해제
