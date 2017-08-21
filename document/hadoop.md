@@ -23,18 +23,6 @@ Hadoop
 
 <br>
 
-- Build & Run HdfsTest.java
-
-> Source : https://raw.githubusercontent.com/skholdings/hadoop_lecture/master/source/hdfs_test/src/main/java/com/sk/skill/coach/hdfs_test/HdfsTest.java
-
-> javac -cp .:/usr/hdp/current/hadoop-client/hadoop-common.jar HdfsTest.java
-
-> jar cvf HdfsTest.jar HdfsTest.class
-
-> hadoop jar HdfsTest.jar HdfsTest
-
-<br>
-
 - Driver Class의 실행 (실습 1)
 
 >hadoop jar hadoop_ex01.jar -D inputPath=/input/acc/* -D outputPath=/output/result01 -D numReduceTasks=3 skill.coach.TestDriver
@@ -50,11 +38,3 @@ Hadoop
 - Driver Class의 실행 (실습 3)
 
 >hadoop jar hadoop_ex03.jar -D inputPath1=/input/acc/* -D inputPath2=/input/cas/* -D cachePath=/input/dis/District.txt -D tempPath=/output/result03_1 -D outputPath=/output/result03_2 -D numReduceTasks=10 skill.coach.TestDriver
-
-<br>
-
-- Yarn Application의 실행
-
->yarn jar simple-yarn-app-1.1.0.jar com.hortonworks.simpleyarnapp.Client /bin/date 2 hdfs:///test/simple-yarn-app-1.1.0.jar
-
-<br>
